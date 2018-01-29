@@ -12,17 +12,17 @@ namespace WindowsFormsWWM
 {
     public partial class Highscore : Form
     {
-        StartGUI startGUI;
+        StartGUI sg;
 
-        public Highscore(StartGUI startGUI)
+        public Highscore(StartGUI sg)
         {
             InitializeComponent();
-            this.startGUI = startGUI;    
+            this.sg = sg;    
         }
 
         private void buttonZurück_Click(object sender, EventArgs e)
         {
-            startGUI.Visible = true;
+            sg.Visible = true;
             this.Close();
         }
     }
