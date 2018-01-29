@@ -19,7 +19,7 @@ namespace WindowsFormsWWM
 
         private void buttonHighscore_Click(object sender, EventArgs e)
         {
-            Highscore hs = new Highscore();
+            Highscore hs = new Highscore(this);
             hs.Visible = true;
             this.Visible = false;
         }

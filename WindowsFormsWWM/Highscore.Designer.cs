@@ -72,6 +72,7 @@
             this.buttonZurück.TabIndex = 3;
             this.buttonZurück.Text = "Zurück";
             this.buttonZurück.UseVisualStyleBackColor = false;
+            this.buttonZurück.Click += new System.EventHandler(this.buttonZurück_Click);
             // 
             // Highscore
             // 

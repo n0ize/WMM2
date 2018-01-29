@@ -67,6 +67,7 @@
             this.buttonMenü.TabIndex = 0;
             this.buttonMenü.Text = "Menü";
             this.buttonMenü.UseVisualStyleBackColor = true;
+            this.buttonMenü.Click += new System.EventHandler(this.buttonMenü_Click);
             // 
             // button50_50
             // 

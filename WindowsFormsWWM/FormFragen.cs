@@ -16,5 +16,10 @@ namespace WindowsFormsWWM
         {
             InitializeComponent();
         }
+
+        private void buttonMenü_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
