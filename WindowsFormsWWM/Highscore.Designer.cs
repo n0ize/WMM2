@@ -31,6 +31,7 @@
             this.labelHighscore = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.listBoxHighscore = new System.Windows.Forms.ListBox();
+            this.buttonZurück = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelHighscore
@@ -61,12 +62,24 @@
             this.listBoxHighscore.Size = new System.Drawing.Size(639, 368);
             this.listBoxHighscore.TabIndex = 2;
             // 
+            // buttonZurück
+            // 
+            this.buttonZurück.BackColor = System.Drawing.SystemColors.Control;
+            this.buttonZurück.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonZurück.Location = new System.Drawing.Point(9, 89);
+            this.buttonZurück.Name = "buttonZurück";
+            this.buttonZurück.Size = new System.Drawing.Size(77, 370);
+            this.buttonZurück.TabIndex = 3;
+            this.buttonZurück.Text = "Zurück";
+            this.buttonZurück.UseVisualStyleBackColor = false;
+            // 
             // Highscore
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RoyalBlue;
             this.ClientSize = new System.Drawing.Size(797, 519);
+            this.Controls.Add(this.buttonZurück);
             this.Controls.Add(this.listBoxHighscore);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.labelHighscore);
@@ -82,5 +95,6 @@
         private System.Windows.Forms.Label labelHighscore;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox listBoxHighscore;
+        private System.Windows.Forms.Button buttonZurück;
     }
 }
