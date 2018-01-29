@@ -12,9 +12,11 @@ namespace WindowsFormsWWM
 {
     public partial class FormFragen : Form
     {
-        public FormFragen()
+        StartGUI sg;
+        public FormFragen(StartGUI sg)
         {
             InitializeComponent();
+            this.sg = sg;
         }
 
         private void buttonMenü_Click(object sender, EventArgs e)
