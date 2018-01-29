@@ -26,7 +26,7 @@ namespace WindowsFormsWWM
 
         private void buttonSpielStart_Click(object sender, EventArgs e)
         {
-            FormFragen ff = new FormFragen();
+            FormFragen ff = new FormFragen(this);
             ff.Visible = true;
             this.Visible = false;
         }
